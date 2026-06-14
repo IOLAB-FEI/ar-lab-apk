@@ -3,7 +3,7 @@
 > Mobilné virtuálne laboratórium v rozšírenej realite (AR) pre výučbu mechatroniky.
 > Mobile augmented‑reality virtual laboratory for teaching mechatronics.
 
-![version](https://img.shields.io/badge/version-2.0-blue)
+![version](https://img.shields.io/badge/version-2.1-blue)
 ![platform](https://img.shields.io/badge/platform-Android%207.1%2B-3ddc84)
 ![engine](https://img.shields.io/badge/engine-Unity%206-000000)
 ![AR](https://img.shields.io/badge/AR-Google%20ARCore-4285F4)
@@ -18,14 +18,18 @@
 
 | Verzia<br>Version | Grafika · Graphics | Unity | Backend · API | Stav · Status | Min. Android | Stiahnuť · Download |
 |:---:|---|:---:|:---:|:---:|:---:|:---:|
-| **2.0** | Nová grafika pre iolab.sk<br>New graphics for iolab.sk | Unity 6 | `ovl.iolab.sk` | ✅ **Aktuálna · Current** | 7.1 (API 25) | **[⬇️ ARLab2.0.apk](ARLab2.0.apk)** |
+| **2.1** | Nová grafika + 2 nové 3D modely<br>New graphics + 2 new 3D models | Unity 6 | `ovl.iolab.sk` | ✅ **Aktuálna · Current** | 7.1 (API 25) | **[⬇️ ARLab2.1.apk](ARLab2.1.apk)** |
+| **2.0** | Nová grafika pre iolab.sk<br>New graphics for iolab.sk | Unity 6 | `ovl.iolab.sk` | 🕒 **Predošlá · Previous** | 7.1 (API 25) | [ARLab2.0.apk](ARLab2.0.apk) |
 | **1.0** | Pôvodná verzia (pôvodná grafika), aktualizovaná na Unity 6<br>Original version (original graphics), updated to Unity 6 | Unity 6 | `ovl.iolab.sk` | ⚠️ **Deprecated** | 7.1 (API 25) | [ARLab1.0.apk](ARLab1.0.apk) |
 | **0.0** | Pôvodná práca<br>Original work | Unity 2020.3 LTS<br>`2020.3.24f1` | Pôvodný backend (nahradený)<br>Legacy backend (replaced) | 🗄️ **Archív · Archived** | — | — |
 
-> ✅ **Odporúčaný build · Recommended:** **2.0**
+> ✅ **Odporúčaný build · Recommended:** **2.1**
 > &nbsp;
-> ⚠️ **Verzia 1.0 je deprecated** — pôvodná grafika, ale už migrovaná na nový engine (Unity 6) a pripojená na `ovl.iolab.sk`; nahradená verziou 2.0.
-> *Version 1.0 is deprecated — original graphics, but already migrated to the new engine (Unity 6) and connected to `ovl.iolab.sk`; superseded by 2.0.*
+> 🆕 **Verzia 2.1** pridáva oproti 2.0 **dva nové 3D modely**.
+> *Version 2.1 adds two new 3D models on top of 2.0.*
+> &nbsp;
+> ⚠️ **Verzia 1.0 je deprecated** — pôvodná grafika, ale už migrovaná na nový engine (Unity 6) a pripojená na `ovl.iolab.sk`; nahradená novšími verziami (2.x).
+> *Version 1.0 is deprecated — original graphics, but already migrated to the new engine (Unity 6) and connected to `ovl.iolab.sk`; superseded by the 2.x releases.*
 > &nbsp;
 > 🗄️ **Verzia 0.0** je pôvodná práca (Unity 2020.3 LTS), pôvodne pripojená na iný backend, ktorý už bol nahradený (`ovl.iolab.sk`) — udržiavaná v samostatnom Unity projekte, tu nie je na stiahnutie.
 > *Version 0.0 is the original work (Unity 2020.3 LTS), originally connected to a different backend that has since been replaced (by `ovl.iolab.sk`) — kept in a separate Unity project and not distributed here.*
@@ -72,7 +76,7 @@ Aplikácia je výstupom aktivity **AR‑Lab** tímu **IOLab** na **FEI STU v Bra
 
 ### Inštalácia (.apk)
 
-1. Stiahnite si **odporúčaný build (2.0)** — [`ARLab2.0.apk`](ARLab2.0.apk); zoznam všetkých buildov nájdete v tabuľke [Buildy](#-buildy--builds) vyššie.
+1. Stiahnite si **odporúčaný build (2.1)** — [`ARLab2.1.apk`](ARLab2.1.apk); zoznam všetkých buildov nájdete v tabuľke [Buildy](#-buildy--builds) vyššie.
 2. V telefóne povoľte inštaláciu z neznámych zdrojov
    (*Nastavenia → Aplikácie → Inštalovať neznáme aplikácie*).
 3. Otvorte stiahnutý `.apk` a potvrďte inštaláciu.
@@ -126,7 +130,7 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 
 ### Installation (.apk)
 
-1. Download the **recommended build (2.0)** — [`ARLab2.0.apk`](ARLab2.0.apk); see the [Builds](#-buildy--builds) table above for all builds.
+1. Download the **recommended build (2.1)** — [`ARLab2.1.apk`](ARLab2.1.apk); see the [Builds](#-buildy--builds) table above for all builds.
 2. On your phone, allow installation from unknown sources
    (*Settings → Apps → Install unknown apps*).
 3. Open the downloaded `.apk` and confirm the installation.
@@ -148,7 +152,7 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 | | |
 |---|---|
 | **Package** | `sk.fei.stu.ARLab` |
-| **Verzia · Version** | 2.0 (current) · 1.0 (deprecated) · 0.0 (archived) |
+| **Verzia · Version** | 2.1 (current) · 2.0 · 1.0 (deprecated) · 0.0 (archived) |
 | **Engine** | Unity 6 — `6000.4.7f1` (IL2CPP) · pôvodne · originally Unity 2020.3 LTS (`2020.3.24f1`) |
 | **Backend · API** | `ovl.iolab.sk` (REST API) — verzie · versions 1.0 & 2.0 |
 | **AR SDK** | Google ARCore (*AR Required*, Depth API) |
