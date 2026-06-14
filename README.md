@@ -62,10 +62,13 @@ Aplikácia je výstupom aktivity **AR‑Lab** tímu **IOLab** na **FEI STU v Bra
 ### Požiadavky
 
 - **Android 7.1** (API 25) alebo novší
-- Zariadenie s podporou **Google Play Services for AR (ARCore)** —
+- Smartfón **s podporou rozšírenej reality** —
   zoznam: [Podporované zariadenia ARCore](https://developers.google.com/ar/devices)
+- Nainštalované **[Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core)**
 - Procesor **arm64‑v8a** (64‑bit)
 - Povolenie prístupu ku **kamere**
+
+> ⚠️ **Bez AR to nepôjde.** Na spustenie na Androide potrebujete smartfón, ktorý podporuje rozšírenú realitu, a nainštalované **[Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core)**. Ak chýbajú, systém vás pri prvom spustení vyzve na ich doinštalovanie z Google Play.
 
 ### Inštalácia (.apk)
 
@@ -113,10 +116,13 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 ### Requirements
 
 - **Android 7.1** (API 25) or newer
-- A device supporting **Google Play Services for AR (ARCore)** —
+- A smartphone **that supports augmented reality** —
   see the [ARCore supported devices list](https://developers.google.com/ar/devices)
+- **[Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core)** installed
 - **arm64‑v8a** (64‑bit) CPU
 - **Camera** access permission
+
+> ⚠️ **AR is required.** To run on Android you need a smartphone that supports augmented reality and **[Google Play Services for AR (ARCore)](https://play.google.com/store/apps/details?id=com.google.ar.core)** installed. If they are missing, the system will prompt you to install them from Google Play on first launch.
 
 ### Installation (.apk)
 
