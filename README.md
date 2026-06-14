@@ -14,6 +14,27 @@
 
 ---
 
+## 📦 Buildy · Builds
+
+| Verzia<br>Version | Grafika · Graphics | Unity | Backend · API | Stav · Status | Min. Android | Stiahnuť · Download |
+|:---:|---|:---:|:---:|:---:|:---:|:---:|
+| **2.0** | Nová grafika pre iolab.sk<br>New graphics for iolab.sk | Unity 6 | `ovl.iolab.sk` | ✅ **Aktuálna · Current** | 7.1 (API 25) | **[⬇️ ARLab2.0.apk](ARLab2.0.apk)** |
+| **1.0** | Pôvodná grafika<br>Original graphics | Unity 6 | `ovl.iolab.sk` | ⚠️ **Deprecated** | 7.1 (API 25) | [ARLab1.0.apk](ARLab1.0.apk) |
+| **0.0** | Pôvodná práca<br>Original work | Unity 2020.3 LTS<br>`2020.3.24f1` | Pôvodný backend (nahradený)<br>Legacy backend (replaced) | 🗄️ **Archív · Archived** | — | — |
+
+> ✅ **Odporúčaný build · Recommended:** **2.0**
+> &nbsp;
+> ⚠️ **Verzia 1.0 je deprecated** — pôvodná grafika, ale už migrovaná na nový engine (Unity 6) a pripojená na `ovl.iolab.sk`; nahradená verziou 2.0.
+> *Version 1.0 is deprecated — original graphics, but already migrated to the new engine (Unity 6) and connected to `ovl.iolab.sk`; superseded by 2.0.*
+> &nbsp;
+> 🗄️ **Verzia 0.0** je pôvodná práca (Unity 2020.3 LTS), pôvodne pripojená na iný backend, ktorý už bol nahradený (`ovl.iolab.sk`) — udržiavaná v samostatnom Unity projekte, tu nie je na stiahnutie.
+> *Version 0.0 is the original work (Unity 2020.3 LTS), originally connected to a different backend that has since been replaced (by `ovl.iolab.sk`) — kept in a separate Unity project and not distributed here.*
+> &nbsp;
+> 🔭 *Nové buildy pridávame ako nové riadky navrch tejto tabuľky.*
+> *New builds are added as new rows at the top of this table.*
+
+---
+
 ## 🇸🇰 Slovensky
 
 ### O aplikácii
@@ -48,7 +69,7 @@ Aplikácia je výstupom aktivity **AR‑Lab** tímu **IOLab** na **FEI STU v Bra
 
 ### Inštalácia (.apk)
 
-1. Stiahnite si súbor [`ARLab-release.apk`](ARLab-release.apk) z tohto repozitára.
+1. Stiahnite si **odporúčaný build (2.0)** — [`ARLab2.0.apk`](ARLab2.0.apk); zoznam všetkých buildov nájdete v tabuľke [Buildy](#-buildy--builds) vyššie.
 2. V telefóne povoľte inštaláciu z neznámych zdrojov
    (*Nastavenia → Aplikácie → Inštalovať neznáme aplikácie*).
 3. Otvorte stiahnutý `.apk` a potvrďte inštaláciu.
@@ -99,7 +120,7 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 
 ### Installation (.apk)
 
-1. Download [`ARLab-release.apk`](ARLab-release.apk) from this repository.
+1. Download the **recommended build (2.0)** — [`ARLab2.0.apk`](ARLab2.0.apk); see the [Builds](#-buildy--builds) table above for all builds.
 2. On your phone, allow installation from unknown sources
    (*Settings → Apps → Install unknown apps*).
 3. Open the downloaded `.apk` and confirm the installation.
@@ -121,8 +142,9 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 | | |
 |---|---|
 | **Package** | `sk.fei.stu.ARLab` |
-| **Verzia · Version** | 2.0 (versionCode 2) |
-| **Engine** | Unity 6 (IL2CPP) |
+| **Verzia · Version** | 2.0 (current) · 1.0 (deprecated) · 0.0 (archived) |
+| **Engine** | Unity 6 — `6000.4.7f1` (IL2CPP) · pôvodne · originally Unity 2020.3 LTS (`2020.3.24f1`) |
+| **Backend · API** | `ovl.iolab.sk` (REST API) — verzie · versions 1.0 & 2.0 |
 | **AR SDK** | Google ARCore (*AR Required*, Depth API) |
 | **Min. Android** | 7.1 — API 25 |
 | **Target Android** | API 35 |
@@ -140,7 +162,12 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 
 ## 👥 Autori · Credits
 
-Vyvinuté tímom **IOLab** · **Ústav automobilovej mechatroniky**, **FEI STU** v Bratislave.
-Developed by the **IOLab** team · **Institute of Automotive Mechatronics**, **FEI STU**, Bratislava.
+**Pôvodná aplikácia · Original application**
+AR‑Lab pôvodne vznikol ako **diplomová práca Matúša Pohančenika** na **FEI STU** (2021/2022) — Unity 2020.3 LTS (verzia 0.0).
+*Originally created as the **master's thesis by Matúš Pohančenik** at **FEI STU** (2021/2022) — Unity 2020.3 LTS (version 0.0).*
+
+**Migrácia & rebrand · Migration & rebrand**
+Migrácia na Unity 6 a redizajn pre **IOLab** · **Ústav automobilovej mechatroniky**, **FEI STU** v Bratislave.
+*Migration to Unity 6 and redesign for the **IOLab** team · **Institute of Automotive Mechatronics**, **FEI STU**, Bratislava.*
 
 🔗 [iolab.sk](https://iolab.sk) · [iolab.sk/activities/ar-lab](https://iolab.sk/activities/ar-lab)
