@@ -19,7 +19,7 @@
 | Verzia<br>Version | Grafika · Graphics | Unity | Backend · API | Stav · Status | Min. Android | Stiahnuť · Download |
 |:---:|---|:---:|:---:|:---:|:---:|:---:|
 | **2.0** | Nová grafika pre iolab.sk<br>New graphics for iolab.sk | Unity 6 | `ovl.iolab.sk` | ✅ **Aktuálna · Current** | 7.1 (API 25) | **[⬇️ ARLab2.0.apk](ARLab2.0.apk)** |
-| **1.0** | Pôvodná grafika<br>Original graphics | Unity 6 | `ovl.iolab.sk` | ⚠️ **Deprecated** | 7.1 (API 25) | [ARLab1.0.apk](ARLab1.0.apk) |
+| **1.0** | Pôvodná grafika — pôvodná verzia aplikácie, len aktualizovaná v súlade s novými technológiami<br>Original graphics — the original version of the app, only updated in line with new technologies | Unity 6 | `ovl.iolab.sk` | ⚠️ **Deprecated** | 7.1 (API 25) | [ARLab1.0.apk](ARLab1.0.apk) |
 | **0.0** | Pôvodná práca<br>Original work | Unity 2020.3 LTS<br>`2020.3.24f1` | Pôvodný backend (nahradený)<br>Legacy backend (replaced) | 🗄️ **Archív · Archived** | — | — |
 
 > ✅ **Odporúčaný build · Recommended:** **2.0**
