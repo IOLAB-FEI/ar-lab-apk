@@ -1,8 +1,5 @@
 # AR‑Lab
 
-> Mobilné virtuálne laboratórium v rozšírenej realite (AR) pre výučbu mechatroniky.
-> Mobile augmented‑reality virtual laboratory for teaching mechatronics.
-
 ![version](https://img.shields.io/badge/version-2.1-blue)
 ![platform](https://img.shields.io/badge/platform-Android%207.1%2B-3ddc84)
 ![engine](https://img.shields.io/badge/engine-Unity%206-000000)
@@ -14,32 +11,28 @@
 
 ---
 
-## 📦 Buildy · Builds
+## 🇸🇰 Slovensky
 
-| Verzia<br>Version | Grafika · Graphics | Unity | Backend · API | Stav · Status | Min. Android | Stiahnuť · Download |
+> Mobilné virtuálne laboratórium v rozšírenej realite (AR) pre výučbu mechatroniky.
+
+### 📦 Buildy
+
+| Verzia | Popis | Unity | Backend | Stav | Min. Android | Stiahnuť |
 |:---:|---|:---:|:---:|:---:|:---:|:---:|
-| **2.1** | Nová grafika + 2 nové 3D modely<br>New graphics + 2 new 3D models | Unity 6 | `ovl.iolab.sk` | ✅ **Aktuálna · Current** | 7.1 (API 25) | **[⬇️ ARLab2.1.apk](ARLab2.1.apk)** |
-| **2.0** | Nová grafika pre iolab.sk<br>New graphics for iolab.sk | Unity 6 | `ovl.iolab.sk` | 🕒 **Predošlá · Previous** | 7.1 (API 25) | [ARLab2.0.apk](ARLab2.0.apk) |
-| **1.0** | Pôvodná verzia (pôvodná grafika), aktualizovaná na Unity 6<br>Original version (original graphics), updated to Unity 6 | Unity 6 | `ovl.iolab.sk` | ⚠️ **Deprecated** | 7.1 (API 25) | [ARLab1.0.apk](ARLab1.0.apk) |
-| **0.0** | Pôvodná práca<br>Original work | Unity 2020.3 LTS<br>`2020.3.24f1` | Pôvodný backend (nahradený)<br>Legacy backend (replaced) | 🗄️ **Archív · Archived** | — | — |
+| **2.1** | 2 nové 3D modely | Unity 6 | `ovl.iolab.sk` | ✅ **Aktuálna** | 7.1 (API 25) | **[⬇️ ARLab2.1.apk](ARLab2.1.apk)** |
+| **2.0** | Nová grafika pre iolab.sk | Unity 6 | `ovl.iolab.sk` | 🕒 **Predošlá** | 7.1 (API 25) | [ARLab2.0.apk](ARLab2.0.apk) |
+| **1.0** | Pôvodná verzia, aktualizovaná na Unity 6 | Unity 6 | `ovl.iolab.sk` | ⚠️ **Deprecated** | 7.1 (API 25) | [ARLab1.0.apk](ARLab1.0.apk) |
+| **0.0** | Pôvodná práca | Unity 2020.3 LTS<br>`2020.3.24f1` | Pôvodný backend (nahradený) | 🗄️ **Archív** | — | — |
 
-> ✅ **Odporúčaný build · Recommended:** **2.1**
+> ✅ **Odporúčaný build:** **2.1**
 > &nbsp;
 > 🆕 **Verzia 2.1** pridáva oproti 2.0 **dva nové 3D modely**.
-> *Version 2.1 adds two new 3D models on top of 2.0.*
 > &nbsp;
 > ⚠️ **Verzia 1.0 je deprecated** — pôvodná grafika, ale už migrovaná na nový engine (Unity 6) a pripojená na `ovl.iolab.sk`; nahradená novšími verziami (2.x).
-> *Version 1.0 is deprecated — original graphics, but already migrated to the new engine (Unity 6) and connected to `ovl.iolab.sk`; superseded by the 2.x releases.*
 > &nbsp;
 > 🗄️ **Verzia 0.0** je pôvodná práca (Unity 2020.3 LTS), pôvodne pripojená na iný backend, ktorý už bol nahradený (`ovl.iolab.sk`) — udržiavaná v samostatnom Unity projekte, tu nie je na stiahnutie.
-> *Version 0.0 is the original work (Unity 2020.3 LTS), originally connected to a different backend that has since been replaced (by `ovl.iolab.sk`) — kept in a separate Unity project and not distributed here.*
 > &nbsp;
 > 🔭 *Nové buildy pridávame ako nové riadky navrch tejto tabuľky.*
-> *New builds are added as new rows at the top of this table.*
-
----
-
-## 🇸🇰 Slovensky
 
 ### O aplikácii
 
@@ -76,14 +69,12 @@ Aplikácia je výstupom aktivity **AR‑Lab** tímu **IOLab** na **FEI STU v Bra
 
 ### Inštalácia (.apk)
 
-1. Stiahnite si **odporúčaný build (2.1)** — [`ARLab2.1.apk`](ARLab2.1.apk); zoznam všetkých buildov nájdete v tabuľke [Buildy](#-buildy--builds) vyššie.
+1. Stiahnite si **odporúčaný build (2.1)** — [`ARLab2.1.apk`](ARLab2.1.apk); zoznam všetkých buildov nájdete v tabuľke [Buildy](#-buildy) vyššie.
 2. V telefóne povoľte inštaláciu z neznámych zdrojov
    (*Nastavenia → Aplikácie → Inštalovať neznáme aplikácie*).
 3. Otvorte stiahnutý `.apk` a potvrďte inštaláciu.
 4. Pri prvom spustení udeľte aplikácii prístup ku **kamere**.
    Ak na zariadení chýba **ARCore**, systém vás vyzve na jeho doinštalovanie z Google Play.
-
-> 💡 iOS verzia aplikácie je dostupná cez oficiálnu stránku — pozri [iolab.sk/activities/ar-lab](https://iolab.sk/activities/ar-lab).
 
 ### Použitie
 
@@ -91,9 +82,61 @@ Aplikácia je výstupom aktivity **AR‑Lab** tímu **IOLab** na **FEI STU v Bra
 2. Počkajte, kým aplikácia rozpozná plochu, a umiestnite na ňu 3D model.
 3. Spustite simuláciu, meňte parametre a pohybom telefónu si zariadenie prezrite zo všetkých strán.
 
+### 🛠️ Technické detaily
+
+| | |
+|---|---|
+| **Balík (package)** | `sk.fei.stu.ARLab` |
+| **Verzia** | 2.1 (aktuálna) · 2.0 · 1.0 (deprecated) · 0.0 (archív) |
+| **Engine** | Unity 6 — `6000.4.7f1` (IL2CPP) · pôvodne Unity 2020.3 LTS (`2020.3.24f1`) |
+| **Backend · API** | `ovl.iolab.sk` (REST API) — verzie 1.0, 2.0 a 2.1 |
+| **AR SDK** | Google ARCore (*AR Required*, Depth API) |
+| **Min. Android** | 7.1 — API 25 |
+| **Cieľový Android** | API 35 |
+| **ABI** | arm64‑v8a |
+| **Povolenia** | `CAMERA`, `INTERNET` |
+| **Jazyky** | 🇸🇰 sk · 🇬🇧 en · 🇪🇸 es |
+
+> Tento repozitár slúži na distribúciu zostaveného APK (release build).
+
+### 🏆 Ocenenie
+
+**Best Education Paper Award** — medzinárodná konferencia **exp.at'23**, Évora, Portugalsko.
+
+### 👥 Autori
+
+**Pôvodná aplikácia**
+AR‑Lab pôvodne vznikol ako **diplomová práca Matúša Pohančenika** na **FEI STU** (2021/2022) — Unity 2020.3 LTS (verzia 0.0).
+
+**Migrácia a rebrand**
+Migrácia na Unity 6 a redizajn pre tím **IOLab** · **Ústav automobilovej mechatroniky**, **FEI STU** v Bratislave.
+
+🔗 [iolab.sk](https://iolab.sk) · [iolab.sk/activities/ar-lab](https://iolab.sk/activities/ar-lab)
+
 ---
 
 ## 🇬🇧 English
+
+> Mobile augmented‑reality (AR) virtual laboratory for teaching mechatronics.
+
+### 📦 Builds
+
+| Version | Notes | Unity | Backend | Status | Min. Android | Download |
+|:---:|---|:---:|:---:|:---:|:---:|:---:|
+| **2.1** | 2 new 3D models | Unity 6 | `ovl.iolab.sk` | ✅ **Current** | 7.1 (API 25) | **[⬇️ ARLab2.1.apk](ARLab2.1.apk)** |
+| **2.0** | New graphics for iolab.sk | Unity 6 | `ovl.iolab.sk` | 🕒 **Previous** | 7.1 (API 25) | [ARLab2.0.apk](ARLab2.0.apk) |
+| **1.0** | Original version, updated to Unity 6 | Unity 6 | `ovl.iolab.sk` | ⚠️ **Deprecated** | 7.1 (API 25) | [ARLab1.0.apk](ARLab1.0.apk) |
+| **0.0** | Original work | Unity 2020.3 LTS<br>`2020.3.24f1` | Legacy backend (replaced) | 🗄️ **Archived** | — | — |
+
+> ✅ **Recommended build:** **2.1**
+> &nbsp;
+> 🆕 **Version 2.1** adds two new 3D models on top of 2.0.
+> &nbsp;
+> ⚠️ **Version 1.0 is deprecated** — original graphics, but already migrated to the new engine (Unity 6) and connected to `ovl.iolab.sk`; superseded by the 2.x releases.
+> &nbsp;
+> 🗄️ **Version 0.0** is the original work (Unity 2020.3 LTS), originally connected to a different backend that has since been replaced (by `ovl.iolab.sk`) — kept in a separate Unity project and not distributed here.
+> &nbsp;
+> 🔭 *New builds are added as new rows at the top of this table.*
 
 ### About
 
@@ -130,14 +173,12 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 
 ### Installation (.apk)
 
-1. Download the **recommended build (2.1)** — [`ARLab2.1.apk`](ARLab2.1.apk); see the [Builds](#-buildy--builds) table above for all builds.
+1. Download the **recommended build (2.1)** — [`ARLab2.1.apk`](ARLab2.1.apk); see the [Builds](#-builds) table above for all builds.
 2. On your phone, allow installation from unknown sources
    (*Settings → Apps → Install unknown apps*).
 3. Open the downloaded `.apk` and confirm the installation.
 4. On first launch, grant the app access to the **camera**.
    If **ARCore** is missing, the system will prompt you to install it from Google Play.
-
-> 💡 An iOS version of the app is available via the official page — see [iolab.sk/activities/ar-lab](https://iolab.sk/activities/ar-lab).
 
 ### Usage
 
@@ -145,39 +186,33 @@ The app is the output of the **AR‑Lab** activity by the **IOLab** team at **FE
 2. Wait for the app to detect the plane, then place the 3D model on it.
 3. Start the simulation, change parameters and move your phone to view the device from all sides.
 
----
-
-## 🛠️ Technické detaily · Technical details
+### 🛠️ Technical details
 
 | | |
 |---|---|
 | **Package** | `sk.fei.stu.ARLab` |
-| **Verzia · Version** | 2.1 (current) · 2.0 · 1.0 (deprecated) · 0.0 (archived) |
-| **Engine** | Unity 6 — `6000.4.7f1` (IL2CPP) · pôvodne · originally Unity 2020.3 LTS (`2020.3.24f1`) |
-| **Backend · API** | `ovl.iolab.sk` (REST API) — verzie · versions 1.0 & 2.0 |
+| **Version** | 2.1 (current) · 2.0 · 1.0 (deprecated) · 0.0 (archived) |
+| **Engine** | Unity 6 — `6000.4.7f1` (IL2CPP) · originally Unity 2020.3 LTS (`2020.3.24f1`) |
+| **Backend · API** | `ovl.iolab.sk` (REST API) — versions 1.0, 2.0 and 2.1 |
 | **AR SDK** | Google ARCore (*AR Required*, Depth API) |
 | **Min. Android** | 7.1 — API 25 |
 | **Target Android** | API 35 |
 | **ABI** | arm64‑v8a |
 | **Permissions** | `CAMERA`, `INTERNET` |
-| **Jazyky · Languages** | 🇸🇰 sk · 🇬🇧 en · 🇪🇸 es |
+| **Languages** | 🇸🇰 sk · 🇬🇧 en · 🇪🇸 es |
 
-> Tento repozitár slúži na distribúciu zostaveného APK (release build).
 > This repository is used to distribute the compiled APK (release build).
 
-## 🏆 Ocenenie · Recognition
+### 🏆 Recognition
 
-**Best Education Paper Award** — medzinárodná konferencia **exp.at'23**, Évora, Portugalsko.
-*Best Education Paper Award at the **exp.at'23** international conference in Évora, Portugal.*
+**Best Education Paper Award** at the **exp.at'23** international conference in Évora, Portugal.
 
-## 👥 Autori · Credits
+### 👥 Credits
 
-**Pôvodná aplikácia · Original application**
-AR‑Lab pôvodne vznikol ako **diplomová práca Matúša Pohančenika** na **FEI STU** (2021/2022) — Unity 2020.3 LTS (verzia 0.0).
-*Originally created as the **master's thesis by Matúš Pohančenik** at **FEI STU** (2021/2022) — Unity 2020.3 LTS (version 0.0).*
+**Original application**
+AR‑Lab was originally created as the **master's thesis by Matúš Pohančenik** at **FEI STU** (2021/2022) — Unity 2020.3 LTS (version 0.0).
 
-**Migrácia & rebrand · Migration & rebrand**
-Migrácia na Unity 6 a redizajn pre **IOLab** · **Ústav automobilovej mechatroniky**, **FEI STU** v Bratislave.
-*Migration to Unity 6 and redesign for the **IOLab** team · **Institute of Automotive Mechatronics**, **FEI STU**, Bratislava.*
+**Migration & rebrand**
+Migration to Unity 6 and redesign for the **IOLab** team · **Institute of Automotive Mechatronics**, **FEI STU**, Bratislava.
 
 🔗 [iolab.sk](https://iolab.sk) · [iolab.sk/activities/ar-lab](https://iolab.sk/activities/ar-lab)
